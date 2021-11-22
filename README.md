@@ -29,6 +29,14 @@
 
 </div>
 
+# Introduction
+
+The purpose of `cclavus` is to provide easy access to ….
+
+## Terms of use
+
+…
+
 # Installation
 
 You can install the development version from

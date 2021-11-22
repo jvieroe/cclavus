@@ -2,18 +2,20 @@
 % Please edit documentation in R/cc_getAdmin.R
 \name{cc_getAdmin}
 \alias{cc_getAdmin}
-\title{Get voting station data}
+\title{Get lorem ipsum}
 \usage{
 cc_getAdmin(spatial = TRUE, level = NULL)
 }
 \arguments{
 \item{spatial}{a logical value. Return data of class \code{sf}? Defaults to \code{TRUE}}
+
+\item{level}{lorem ipsum}
 }
 \value{
-data on danish voting stations
+data lorem ipsum
 }
 \description{
-This function extracts spatial data on voting stations in Denmark from \url{https://info.aws.dk/afstemningsomraader/}
+lorem ipsum
 }
 \examples{
 df <- cc_getAdmin(level == "region")

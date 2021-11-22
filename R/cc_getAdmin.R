@@ -1,8 +1,9 @@
-#' Get voting station data
+#' Get lorem ipsum
 #'
-#' This function extracts spatial data on voting stations in Denmark from \url{https://info.aws.dk/afstemningsomraader/}
+#' lorem ipsum
 #' @param spatial a logical value. Return data of class `sf`? Defaults to `TRUE`
-#' @return data on danish voting stations
+#' @param level lorem ipsum
+#' @return data lorem ipsum
 #' @examples
 #' df <- cc_getAdmin(level == "region")
 #' @author Jeppe Vierø

@@ -6,11 +6,14 @@
 #' @examples
 #' df <- cc_getAdmin(level == "region")
 #' @author Jeppe Vierø
-#' @import
+#' @import sf dplyr
 #' @export
 
 cc_getAdmin <- function(spatial = TRUE,
                         level = NULL) {
+
+  check_input_cc_getAdmin(spatial = spatial,
+                          level = level)
 
   base_url1 <- "https://api.dataforsyningen.dk/"
   base_url2 <- "?format=geojson"
@@ -39,6 +42,8 @@ cc_getAdmin <- function(spatial = TRUE,
                         "afstemningsomraader",
                         base_url2)
 
+    # tilfoej storkreds
+
   } else if (level == "zip") {
 
     url <- base::paste0(base_url1,
@@ -46,6 +51,12 @@ cc_getAdmin <- function(spatial = TRUE,
                         base_url2)
 
   }
+
+
+  data <- sf::read_sf(url)
+
+  data <- data %>%
+    sf::st_intersection(cclavus::baselayer)
 
 
 

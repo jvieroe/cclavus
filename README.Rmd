@@ -27,6 +27,18 @@ knitr::opts_chunk$set(
 <div style="text-align: right"> [Wikipedia](https://en.wikipedia.org/wiki/Claudius_Clavus) </div>
 
 
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+if(!require("devtools")) install.packages("devtools")
+library(devtools)
+devtools::install_github("jvieroe/cclavus")
+```
+
+
+
 # Acknowledgments
 
 * text

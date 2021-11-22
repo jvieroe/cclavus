@@ -28,6 +28,17 @@
 
 </div>
 
+## Installation
+
+You can install the development version from
+[GitHub](https://github.com/) with:
+
+``` r
+if(!require("devtools")) install.packages("devtools")
+library(devtools)
+devtools::install_github("jvieroe/cclavus")
+```
+
 # Acknowledgments
 
   - text

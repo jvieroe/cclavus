@@ -2,7 +2,7 @@
 library(magrittr)
 
 url_baselayer <- "https://api.dataforsyningen.dk/regioner?format=geojson"
-baselayer <- sf::read_sf(url_baselayer)
+baselayer <- sf::read_sf(url_baselayer) ; rm(url_baselayer)
 
 baselayer <- baselayer %>%
   sf::st_transform(crs = 4326) %>%

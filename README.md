@@ -21,12 +21,12 @@
 > and was probably the first cartographer to put Greenland on a map. He
 > is also known for having named Greenlandic places by using lyrics from
 > old folk songs.”
-> 
-> <div style="text-align: right">
-> 
-> [Wikipedia](https://en.wikipedia.org/wiki/Claudius_Clavus)
-> 
-> </div>
+
+<div style="text-align: right">
+
+[Wikipedia](https://en.wikipedia.org/wiki/Claudius_Clavus)
+
+</div>
 
 # Acknowledgments
 

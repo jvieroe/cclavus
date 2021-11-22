@@ -57,8 +57,12 @@ cc_getAdmin <- function(spatial = TRUE,
   data <- sf::read_sf(url)
 
   data <- data %>%
+    sf::st_transform(crs = 4326)
+
+  data <- data %>%
     sf::st_intersection(cclavus::baselayer)
 
+  return(data)
 
 
 }

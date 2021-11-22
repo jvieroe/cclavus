@@ -9,8 +9,6 @@
 
 # About C. Clavus
 
-<!-- <div style="text-align: right"> -->
-
 > “Claudius Clavus \[…\] (born 14 September 1388), was a Danish
 > geographer sometimes considered to be the first Nordic cartographer
 > \[…\] In 1412–13 at the age of 25 he started to travel around Europe
@@ -23,8 +21,12 @@
 > and was probably the first cartographer to put Greenland on a map. He
 > is also known for having named Greenlandic places by using lyrics from
 > old folk songs.”
-
-<!-- </div> -->
+> 
+> <div style="text-align: right">
+> 
+> [Wikipedia](https://en.wikipedia.org/wiki/Claudius_Clavus)
+> 
+> </div>
 
 # Acknowledgments
 

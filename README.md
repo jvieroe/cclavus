@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![CodeFactor](https://www.codefactor.io/repository/github/jvieroe/cclavus/badge)](https://www.codefactor.io/repository/github/jvieroe/cclavus)
 <!-- badges: end -->
 
 # About C. Clavus

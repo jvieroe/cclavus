@@ -7,7 +7,9 @@
 
 <!-- badges: end -->
 
-Text
+# About C. Clavus
+
+<!-- <div style="text-align: right"> -->
 
 > “Claudius Clavus \[…\] (born 14 September 1388), was a Danish
 > geographer sometimes considered to be the first Nordic cartographer
@@ -22,4 +24,4 @@ Text
 > is also known for having named Greenlandic places by using lyrics from
 > old folk songs.”
 
-Text
+<!-- </div> -->

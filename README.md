@@ -13,7 +13,7 @@
 
 The purpose of `cclavus` is to provide easy access to ….
 
-# About C. Clavus
+# About C. Clavus (… or `cclavus`)
 
 > “Claudius Clavus \[…\] (born 14 September 1388), was a Danish
 > geographer sometimes considered to be the first Nordic cartographer

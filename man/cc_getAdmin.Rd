@@ -17,9 +17,6 @@ data lorem ipsum
 \description{
 lorem ipsum
 }
-\examples{
-df <- cc_getAdmin(level = "region")
-}
 \author{
 Jeppe Vierø
 }

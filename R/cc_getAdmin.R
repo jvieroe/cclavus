@@ -4,8 +4,6 @@
 #' @param spatial a logical value. Return data of class `sf`? Defaults to `TRUE`
 #' @param level lorem ipsum
 #' @return data lorem ipsum
-#' @examples
-#' df <- cc_getAdmin(level = "region")
 #' @author Jeppe Vierø
 #' @import sf dplyr
 #' @export

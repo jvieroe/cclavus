@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![CodeFactor](https://www.codefactor.io/repository/github/jvieroe/cclavus/badge)](https://www.codefactor.io/repository/github/jvieroe/cclavus)
+[![R-CMD-check](https://github.com/jvieroe/cclavus/workflows/R-CMD-check/badge.svg)](https://github.com/jvieroe/cclavus/actions)
 <!-- badges: end -->
 
 # About C. Clavus
@@ -50,4 +51,4 @@ devtools::install_github("jvieroe/cclavus")
 
 # Acknowledgments
 
-  - text
+-   text

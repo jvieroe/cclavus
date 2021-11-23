@@ -9,4 +9,4 @@ baselayer <- baselayer %>%
   sf::st_transform(crs = 4326) %>%
   sf::st_union()
 
-usethis::use_data(baselayer, overwrite = TRUE)
+usethis::use_data(baselayer, overwrite = TRUE, compress = "bzip2")

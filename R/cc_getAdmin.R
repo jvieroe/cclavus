@@ -25,7 +25,7 @@ cc_getAdmin <- function(spatial = TRUE,
                         "kommuner",
                         base_url2)
 
-  } else if (level == "regions") {
+  } else if (level == "region") {
 
     url <- base::paste0(base_url1,
                         "regioner",

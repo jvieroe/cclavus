@@ -11,7 +11,7 @@ cc_getBaseLayer <- function(as_sf = TRUE) {
 
   baselayer <- cclavus::baselayer
 
-  if (af_sf == TRUE) {
+  if (as_sf == TRUE) {
 
     base_layer <- geojsonsf::geojson_sf(baselayer)
 

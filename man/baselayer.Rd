@@ -5,7 +5,7 @@
 \alias{baselayer}
 \title{Baselayer data}
 \format{
-A \verb{Large sfc_Multipolygon}
+A \verb{Large sfc_Multipolygon} (xz)
 }
 \usage{
 baselayer

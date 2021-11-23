@@ -1,12 +1,8 @@
 ## code to prepare `DATASET` dataset goes here
 library(magrittr)
+library(sf)
 
-url_baselayer <- "https://api.dataforsyningen.dk/regioner?format=geojson"
-
-baselayer <- sf::read_sf(url_baselayer) ; rm(url_baselayer)
-
-baselayer <- baselayer %>%
-  sf::st_transform(crs = 4326) %>%
-  sf::st_union()
+baselayer <- sf::read_sf("https://api.dataforsyningen.dk/regioner?format=geojson")
+baselayer <- sf::st_union(baselayer)
 
 usethis::use_data(baselayer, overwrite = TRUE, compress = "xz")

@@ -13,7 +13,7 @@
 
 The purpose of `cclavus` is to provide easy access to ….
 
-# About C. Clavus (… or `cclavus`)
+## About C. Clavus (… or `cclavus`)
 
 > “Claudius Clavus \[…\] (born 14 September 1388), was a Danish
 > geographer sometimes considered to be the first Nordic cartographer
@@ -36,7 +36,24 @@ The purpose of `cclavus` is to provide easy access to ….
 
 ## Terms of use
 
-…
+`cclavus` provides easy access to data provided by other sources that
+***provide data for free and without credentials***. For a systematic
+list of providers, see the acknowledgements below.
+
+The lion’s share of the data accessed through `cclavus` is provided by
+[Danmarks Adressers Web API
+(DAWA)](https://dawadocs.dataforsyningen.dk/). DAWA is developed and run
+by the [Danish Agency for Data Supply and Efficiency
+(SDFE)](https://eng.sdfe.dk/). SDFE’s [terms of
+use](https://download.kortforsyningen.dk/content/vilk%C3%A5r-og-betingelser)
+apply.
+
+<!-- tictoc::tic() -->
+<!-- bl <- cc_readBaseLayer() -->
+<!-- tictoc::toc() -->
+<!-- tictoc::tic() -->
+<!-- bl2 <- cc_getBaseLayer() -->
+<!-- tictoc::toc() -->
 
 # Installation
 

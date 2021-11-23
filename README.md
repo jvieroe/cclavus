@@ -9,6 +9,10 @@
 [![R-CMD-check](https://github.com/jvieroe/cclavus/workflows/R-CMD-check/badge.svg)](https://github.com/jvieroe/cclavus/actions)
 <!-- badges: end -->
 
+# Introduction
+
+The purpose of `cclavus` is to provide easy access to ….
+
 # About C. Clavus
 
 > “Claudius Clavus \[…\] (born 14 September 1388), was a Danish
@@ -29,10 +33,6 @@
 [Wikipedia](https://en.wikipedia.org/wiki/Claudius_Clavus)
 
 </div>
-
-# Introduction
-
-The purpose of `cclavus` is to provide easy access to ….
 
 ## Terms of use
 

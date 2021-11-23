@@ -8,7 +8,7 @@
 
 cc_getBaseLayer <- function() {
 
-  baselayer <- cclavus::temp
+  baselayer <- cclavus::baselayer
 
   return(baselayer)
 

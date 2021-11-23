@@ -15,7 +15,7 @@ cc_getBaseLayer <- function(as_sf = TRUE) {
 
     base_layer <- geojsonsf::geojson_sf(baselayer)
 
-  } else if (sf_sf == FALSE) {
+  } else if (as_sf == FALSE) {
 
     base_layer <- baselayer
 

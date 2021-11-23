@@ -4,7 +4,10 @@
 \alias{cc_getBaseLayer}
 \title{Get lorem ipsum}
 \usage{
-cc_getBaseLayer()
+cc_getBaseLayer(as_sf = TRUE)
+}
+\arguments{
+\item{as_sf}{A logical value. Return data as an object of class \code{sf}? Default is TRUE. If FALSE, imports as a GEOJSON of class \code{geomultipolygon}}
 }
 \value{
 data lorem ipsum

@@ -2,6 +2,7 @@
 
 export("%>%")
 export(cc_getAdmin)
+export(cc_readBaseLayer)
 import(dplyr)
 import(sf)
 importFrom(magrittr,"%>%")
